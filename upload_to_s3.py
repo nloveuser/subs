@@ -20,6 +20,8 @@ def main():
         'readme.md', 
         'last_synced_commit.txt', 
         '.gitignore', 
+        'CNAME',
+        'upload_to_s3.py',
         'encrypt_files.sh'
     }
     
