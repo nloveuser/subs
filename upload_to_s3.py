@@ -15,7 +15,6 @@ def main():
     bucket_name = os.environ.get('BUCKET_NAME')
     
     exclude_files = {
-        'index.html', 
         'README.md', 
         'readme.md', 
         'last_synced_commit.txt', 
