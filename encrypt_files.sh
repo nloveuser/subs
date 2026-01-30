@@ -3,7 +3,7 @@ set -e
 
 echo "Encrypting files..."
 
-NO_ENCRYPT_FILES="_config.yml index.html CNAME last_synced_commit.txt .gitignore LICENSE README.md robots.txt sitemap.xml Gemfile Gemfile.lock generate_config.sh encrypt_files.sh"
+NO_ENCRYPT_FILES="upload_to_s3.py _config.yml index.html CNAME last_synced_commit.txt .gitignore LICENSE README.md robots.txt sitemap.xml Gemfile Gemfile.lock generate_config.sh encrypt_files.sh"
 NO_ENCRYPT_DIRS=".git .github .gitverse"
 
 find . -type f | while read -r file; do
